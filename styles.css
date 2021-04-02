@@ -151,6 +151,10 @@ main {
     font-family: "Inter", sans-serif;
 }
 .main-currency-table .main-currency-title {
+    display: inline-block;
+    width: 100%;
+    text-align: start;
+    margin-left: 20px;
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -163,10 +167,10 @@ main {
     width: 90%;
     min-width: 230px;
     max-width: 300px;
-    /* height: 250px; */
     margin: 0 auto;
     background-color: var(--just-white);
     border-radius: 12px;
+    position: relative;
 }
 .main-currency-name {
     font-size: 1.6rem;
@@ -202,6 +206,21 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.arrow-right {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 15px;
+    background-image: url("./assets/icons/right-arrow.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.arrow-next-table {
+    position: absolute;
+    right: -30px;
+    top: 45%;
 }
 .currenct-table-date {
     display: inline-block;
