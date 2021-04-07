@@ -145,8 +145,8 @@ main {
     width: 70%;
     min-width: 235px;
     max-width: 500px;
-    margin: 0 auto;
-    /* margin: 0 auto 48px auto; */
+    margin: 50px 0 0 30px;
+    scroll-snap-align: center;
     font-family: "Inter", sans-serif;
 }
 .main-currency-table .main-currency-title {
@@ -396,6 +396,12 @@ main {
     background-color: var(--just-white);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.main-tables-slider {
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 }
 .recommended {
     position: absolute;
