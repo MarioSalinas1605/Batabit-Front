@@ -144,7 +144,7 @@ main {
 .main-currency-table {
     width: 70%;
     min-width: 235px;
-    max-width: 500px;
+    max-width: 350px;
     margin: 50px 0 0 30px;
     scroll-snap-align: center;
     font-family: "Inter", sans-serif;
